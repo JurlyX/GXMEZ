@@ -1,6 +1,5 @@
 body {
-  background: -webkit-linear-gradient(to right, #28e63f, #63ec32);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #28e63f, #63ec32); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: https://w0.peakpx.com/wallpaper/1016/701/HD-wallpaper-sasuke-uchiha-neon-lights-manga-artwork-anime-characters-naruto.jpg; 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#14A562", endColorstr="#3F006F", GradientType=1 );
   font-family: monospace, sans-serif;
   text-align: center;
