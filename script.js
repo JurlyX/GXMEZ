@@ -8,6 +8,10 @@ function redirectToBanana() {
   window.location.href = "page3.htm";
 }
 
+function p2() {
+  window.location.href = "secreterpage.htm";
+}
+
 function StartGame() {
   window.location.href = "secretpage.htm";
 }
