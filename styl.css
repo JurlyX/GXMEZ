@@ -32,7 +32,7 @@ p {
   margin: 10px;
   cursor: pointer;
   font-size: 16px;
-  background: linear-gradient(120deg, crimson, #4b56f7, #66bdff);
+  background: linear-gradient(120deg, crimson, #880808, #D2042D);
   background-size: 200% 100%;
   background-position: 100% 0;
   transition: background-position .5s;
