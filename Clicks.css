@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  background: linear-gradient(to top, #972121, #3d0000);
+  padding: 20px;
+}
+
+h1, p {
+  font-size:;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(to top, #ababab, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#score {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+  width: 10vw;
+  height: 10vh;
+  background: #f2f2f2;
+  border-radius: 20px;
+  border: 2px solid #333;
+  padding: 20px;
+  margin: auto;
+}
+#home,
+#click-me,
+#upgrade1,
+#upgrade2,
+#upgrade3, 
+#upgrade4,
+#clear-score,
+#reset-game {
+  padding: 15px 30px;
+  font-size: 24px;
+  background: linear-gradient(to bottom, #5665e9, #364591);
+  color: #fff;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color, box-shadow 0.3s ease;
+  border: 2px solid transparent;
+}
+#home:hover,
+#click-me:hover,
+#upgrade1:hover,
+#upgrade2:hover, 
+#upgrade3:hover,
+#upgrade4:hover,
+#clear-score:hover,
+#reset-game:hover {
+  background-color: #2980b9;
+  box-shadow: rgba(41, 128, 185, 0.4) -5px 5px, rgba(41, 128, 185, 0.3) -10px 10px, rgba(41, 128, 185, 0.2) -15px 15px, rgba(41, 128, 185, 0.1) -20px 20px, rgba(41, 128, 185, 0.05) -25px 25px;
+}
+
+@keyframes buttonOver {
+  50% {
+    background-color: linear-gradient(to bottom, #5665e9, #364591);
+  }
+  100% {
+    background-color: linear-gradient(to bottom, #8386a5, #454754);
+  }
+}
+#home:hover,
+#click-me:hover,
+#upgrade1:hover,
+#upgrade2:hover, 
+#upgrade3:hover,
+#upgrade4:hover,
+#clear-score:hover,
+#reset-game:hover {
+  animation: buttonOver 5s infinite;
+}

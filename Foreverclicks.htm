@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forever-Clicks</title>
+  <link rel="icon" type="svg" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mano_cursor.svg/1582px-Mano_cursor.svg.png">
+  <link rel="stylesheet" href="Clicks.css" type="text/css">
+</head>
+<body>
+  <h1>Forever-Clicks</h1>
+  <p>Click the button to increase your score (post score in comments)</p>
+  <div id="score">0</div>
+  <div class="buttonContainer">
+  <button id="click-me">Click Me!</button>
+  <button id="upgrade1"> Double Score Per Click (Cost: 10)</button>
+  <button id="upgrade2"> Quadruple Score Per Click (Cost: 50)</button>
+      <button id="upgrade3"> X6 Score Per Click (Cost: 100)</button>
+      <button id="upgrade4"> X8 Score Per Click (Cost: 1000)</button>
+      <button id="clear-score">Clear Score</button>
+      <button id="reset-game" onclick="resetGame()">Reset Game</button>
+    <button onclick="RedirectToHome()" id="home"> home </button>
+  </div>
+  <script src="Clicks.js"></script>
+</body>
+</html>
